@@ -1,0 +1,12 @@
+.bulb {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 50px auto;
+    transition: background-color 0.5s;
+}
+
+.bulb.on {
+    background-color: yellow;
+}
